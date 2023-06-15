@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <script src="index.js"></script> <!-- Move the script tag to the head section -->
+</head>
+<body>
+    <h1>Temperature Converter</h1>
+    <form name="data" action="" method="post" onsubmit="return validateForm()">
+        Enter Temperature: <input type="text" name="temp"><br>
+        Type: <input type="radio" id="Celsius" name="type" value="Celsius">
+        <label for="Celsius">Celsius</label>
+        <input type="radio" id="Fahrenheit" name="type" value="Fahrenheit">
+        <label for="Fahrenheit">Fahrenheit</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p id="result">Result: </p>
+
+</body>
+</html>
